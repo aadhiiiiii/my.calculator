@@ -1,5 +1,5 @@
 from flask import Flask, renter_template,reguest
-app=flask(__name__)
+app=Flask(__name__)
 @app.route('/')
 def hello():
     
@@ -13,7 +13,7 @@ def hi():
 
         output=cal(int(res))
     return renter_template('result.html',output=output)
-def cal():
+def cal(radio):
     if radio==addition:
         res=num1+num2
         return res
