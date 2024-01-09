@@ -20,7 +20,7 @@ def cal(radio):
     elif radio==subtraction:
         res=num1-num2
         return res
-    elif radio==multipliction:
+    elif radio==multiplication:
         res=num1*num2
         return res
     elif radio==division:
