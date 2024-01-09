@@ -16,16 +16,13 @@ def hi():
 def cal(radio):
     if radio==addition:
         res=num1+num2
-        return res
     elif radio==subtraction:
         res=num1-num2
-        return res
     elif radio==multiplication:
         res=num1*num2
-        return res
     elif radio==division:
         res=num1/num2
-        return res
+    return res
 if__name__=='__main__':
     app.run()
 
