@@ -3,7 +3,7 @@ app=Flask(__name__)
 @app.route('/')
 def hello():
     
-    return renter_template('intex.html')
+    return renter_template('index.html')
 @app.route("/result",method=['GET','POST'])
 def hi():
     if request.method=='POST':
